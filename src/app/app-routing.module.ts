@@ -9,6 +9,7 @@ import { SignupComponent } from '../app/mod-sign/signup/signup.component';
 import { JoblistComponent } from './mod-main/joblist/joblist.component';
 import { AcceptedCandiComponent } from './admin-process/accepted-candi/accepted-candi.component';
 import { RejectedCandComponent } from './admin-process/rejected-cand/rejected-cand.component';
+import { AutofillManualComponent } from './mod-main/autofill-manual/autofill-manual.component';
 
 const routes: Routes = [
   {path:'', redirectTo: 'Home', pathMatch: 'full'},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:'application-status', component:UserstatusComponent},
   {path: 'Jobs', component:JoblistComponent},
   {path: 'accepted-candidate', component:AcceptedCandiComponent},
-  {path: 'rejected-candidate', component:RejectedCandComponent}
+  {path: 'rejected-candidate', component:RejectedCandComponent},
+  {path:'resume-upload', component: AutofillManualComponent}
 ];
 
 @NgModule({

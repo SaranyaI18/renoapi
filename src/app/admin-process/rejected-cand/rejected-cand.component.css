@@ -1,0 +1,30 @@
+.acchead{
+    padding: 50px;
+    text-align: center;
+    color: #FF8C00;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.contentsec{
+    padding: 60px;
+}
+
+.selname{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+.seldet{
+    font-size: 18px;
+    display: inline-block;
+    padding: 20px- 0px;
+
+}
+
+.itemdet{
+    display: flex;
+    justify-content: space-between;
+}

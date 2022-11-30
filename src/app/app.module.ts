@@ -12,6 +12,7 @@ import { SignupServiceService } from './mod-sign/signup-service.service';
 import { UserresumeupdateServiceService } from './mod-main/userresumeupdate-service.service';
 import { AdminProcessModule } from './admin-process/admin-process.module';
 import { HomeServiceService } from './mod-main/home-service.service';
+import { MatExpansionModule } from '@angular/material';
 
 
 
@@ -28,7 +29,8 @@ import { HomeServiceService } from './mod-main/home-service.service';
     AppRoutingModule,
     ModDirModule,
     ModSignModule,
-    AdminProcessModule
+    AdminProcessModule,
+    
     
   ],
   providers: [SignupServiceService,

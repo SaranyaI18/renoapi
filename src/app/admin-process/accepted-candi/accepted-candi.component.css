@@ -1,0 +1,89 @@
+.applist{
+    width: 1110px;
+    padding: 50px;
+    border-radius: 3px;
+    margin: 80pxpx auto;
+    box-shadow: 10px solid black;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px, rgb(0 0 0 / 16%) 0px 4px 16px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.contentsec{
+ padding: 60px;
+}
+
+.selname{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+.seldet{
+    font-size: 18px;
+    display: inline-block;
+    padding: 20px- 0px;
+
+}
+
+.selcheck{
+    font-size: 20px;
+    padding: 30px;
+   
+}
+.acchead{
+    padding: 50px;
+    text-align: center;
+    color: #FF8C00;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.lblname{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+}
+
+.listitems{
+    width: 900px;
+    padding: 100px 0px 50px 0px;
+    margin: 0px auto;
+}
+
+.itemdet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headeradmin{
+    display: flex;
+}
+
+.lsthead{
+    font-weight: bold;
+    color: orange;
+    margin-left: 10px;
+}
+
+.relrec{
+    border: none;
+    background-color: transparent;
+    color: skyblue;
+}
+
+.boxcheck{
+    width: 18px;
+    height: 20px;
+
+}
+
+.applybtn{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+
+

@@ -5,8 +5,9 @@ import { UserresumeupdateComponent } from './userresumeupdate/userresumeupdate.c
 import { AdminComponent } from './admin/admin.component';
 import { UserstatusComponent } from './userstatus/userstatus.component';
 import { JoblistComponent } from './joblist/joblist.component';
-
 import { FormsModule } from '@angular/forms';
+import { AutofillManualComponent } from './autofill-manual/autofill-manual.component';
+import { MatExpansionModule } from '@angular/material';
 
 
 
@@ -17,18 +18,22 @@ import { FormsModule } from '@angular/forms';
     AdminComponent,
     UserstatusComponent,
     JoblistComponent,
+    AutofillManualComponent,
     
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    MatExpansionModule,
+    
   ],
   exports: [
     HomeComponent,
     UserresumeupdateComponent,
     AdminComponent,
     UserstatusComponent,
-   
+    JoblistComponent,
+    AutofillManualComponent,
   ]
 })
 export class ModMainModule { }

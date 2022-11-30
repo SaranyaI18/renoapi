@@ -1,0 +1,23 @@
+.autoresumesec{
+    margin: 200px auto;
+    text-align: center;
+    width: 500px;
+}
+
+.autofill{
+    color: #FF8C00;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.autofill:hover{
+    color: #007bff;
+}
+
+.orstyle{
+    font-size: 20px;
+    font-weight: bold;
+}
